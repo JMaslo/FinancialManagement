@@ -15,6 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         introduction();
+        //transactionsManager.saveTransaction(1000, true, false);
 
         if (intro.equalsIgnoreCase("money")) {
             accountManager.seeMoney();
